@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Profile.css";
+import { Link } from "react-router-dom";
 
 function Profile() {
   const storedStudent = JSON.parse(localStorage.getItem("student")) || {};
@@ -39,12 +40,10 @@ function Profile() {
    return (
   <div className="parent">
     <h6 className="m-3">
-      <a
-        href="/Home"
-        className="text-black fw-bold text-decoration-none"
-      >
+      <Link to="/Home"
+        className="text-black fw-bold text-decoration-none">
         Home /
-      </a>
+      </Link>
       <span className="text-black fw-bold"> Profile</span>
     </h6>
 
