@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eef2f7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    color: #0b1f5f;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom:3px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 3px;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #081b5d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #102a84;
+}
+
+.signin-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-text a {
+    text-decoration: none;
+    color: #1d4ed8;
+    font-weight: bold;
+}

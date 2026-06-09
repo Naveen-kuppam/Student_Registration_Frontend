@@ -1,0 +1,143 @@
+.examination-container {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.back-btn:hover {
+    color: #0d6efd;
+}
+
+/* Main Card Container */
+.Acd {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Cards */
+.fee-card,
+.Acd .card {
+    width: 100%;
+    max-width: 700px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.fee-card:hover,
+.Acd .card:hover {
+    transform: translateY(-5px);
+}
+
+.fee-card .card-body,
+.Acd .card-body {
+    padding: 20px;
+}
+
+/* Links */
+.Acd a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Card Heading */
+.Acd h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size: 22px;
+}
+
+.Acd span i {
+    color: #0d6efd;
+}
+
+/* Transport Form */
+.transport-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.transport-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.transport-btn:hover {
+    background-color: #0b5ed7;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .fee-card,
+    .Acd .card {
+        max-width: 100%;
+    }
+
+    .Acd h4 {
+        font-size: 18px;
+    }
+
+    .transport-input,
+    .transport-btn {
+        font-size: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .examination-container {
+        padding: 15px;
+    }
+
+    .back-btn {
+        font-size: 16px;
+    }
+
+    .Acd {
+        margin-top: 25px;
+        gap: 15px;
+    }
+
+    .fee-card .card-body,
+    .Acd .card-body {
+        padding: 15px;
+    }
+
+    .Acd h4 {
+        font-size: 15px;
+    }
+
+    .transport-input,
+    .transport-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

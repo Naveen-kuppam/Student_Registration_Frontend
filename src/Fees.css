@@ -1,0 +1,92 @@
+.Fees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+.main {
+    width: 100%;
+    max-width: 900px;
+    background-color: #EAF4FF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.main h3 {
+    color: #0D47A1;
+}
+
+.Fees1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.main a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main .card {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.main .card:hover {
+    transform: translateY(-5px);
+}
+
+.main .card-body {
+    padding: 20px;
+}
+
+.main .card-title {
+    color: #0D47A1;
+    margin-bottom: 10px;
+}
+
+.main .card-text {
+    color: #555;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .main {
+        padding: 20px;
+    }
+
+    .main h3 {
+        font-size: 24px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .Fees {
+        padding: 15px;
+    }
+
+    .main {
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .main h3 {
+        font-size: 20px;
+        margin-bottom: 25px !important;
+    }
+
+    .main .card-title {
+        font-size: 16px;
+    }
+
+    .main .card-text {
+        font-size: 14px;
+    }
+}
